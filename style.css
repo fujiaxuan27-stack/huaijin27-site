@@ -90,8 +90,8 @@ h2{font-size:clamp(26px,3.4vw,36px);font-weight:800;letter-spacing:-.01em;margin
 .course{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:24px;transition:transform .2s,box-shadow .2s,border-color .2s}
 .course:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
 .c-top{display:flex;align-items:center;gap:14px;margin-bottom:16px}
-.c-icon{flex:none;display:grid;place-items:center;width:48px;height:48px;border-radius:14px;background:var(--accent-soft);color:var(--accent)}
-.c-icon svg{width:26px;height:26px}
+.c-icon{flex:none;display:grid;place-items:center;width:52px;height:52px;border-radius:14px;background:#fff;border:1px solid var(--line);box-shadow:0 2px 6px -3px rgba(28,25,23,.15)}
+.c-icon img{width:28px;height:28px;object-fit:contain}
 .course h4{font-size:18px;font-weight:800;line-height:1.35}
 .plan-list{list-style:none;display:flex;flex-direction:column;gap:8px;margin-bottom:20px;flex:1;font-size:14.5px;color:var(--muted)}
 .plan-list li{padding-left:24px;position:relative}
@@ -137,6 +137,7 @@ h2{font-size:clamp(26px,3.4vw,36px);font-weight:800;letter-spacing:-.01em;margin
 /* footer */
 .footer{border-top:1px solid var(--line);padding:28px 0;font-size:14px;color:var(--muted)}
 .footer-inner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.footer-note{margin-top:12px;font-size:12.5px;color:var(--muted);opacity:.85}
 
 /* mobile sticky booking bar */
 .sticky-buy{display:none}
